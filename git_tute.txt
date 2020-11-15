@@ -21,4 +21,4 @@ git push -u origin master #to add files on master repository
 echo """file name"""/>.gitignore  #would not be commited to master
 
 
-#############################purani file###################33
+#############################nayi file###################33
