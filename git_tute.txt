@@ -1,0 +1,24 @@
+git config --global user.name "shmyadav"
+git config --global shmyadav90s@gmail.com
+git config --global core.editor "code --wait" #make the core editor as vs code 
+					      # wait flag is to tell bash to wait untill the file  has been closed
+git init #to initialize empty git reposilstory
+
+git add #used to make changes in staging area
+
+git commit -m 'message' # make changes to repository
+
+git status # shows commits
+	   # untracked files: not in stagging area (shown in red)
+
+git ls-files # shows files in staging area
+
+git remote add origin ""repository url"" #if repository is just created
+git remote set-url ""repository url"" #if repository already exists
+
+git push -u origin master #to add files on master repository
+
+echo """file name"""/>.gitignore  #would not be commited to master
+
+
+#############################purani file###################33
