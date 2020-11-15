@@ -7,3 +7,12 @@ git init #to initialize empty git reposilstory
 git add #used to make changes in staging area
 
 git commit -m 'message' # make changes to repository
+
+git status # shows commits
+	   # untracked files: not in stagging area (shown in red)
+
+git ls-files # shows files in staging area
+
+git remote add origin ""repository url""
+
+git remote add origin 
