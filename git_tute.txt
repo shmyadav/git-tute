@@ -1,0 +1,9 @@
+git config --global user.name "shmyadav"
+git config --global shmyadav90s@gmail.com
+git config --global core.editor "code --wait" #make the core editor as vs code 
+					      # wait flag is to tell bash to wait untill the file  has been closed
+git init #to initialize empty git reposilstory
+
+git add #used to make changes in staging area
+
+git commit -m 'message' # make changes to repository
