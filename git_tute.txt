@@ -6,6 +6,8 @@ git init #to initialize empty git reposilstory
 
 git add #used to make changes in staging area
 
+git restore --staged . ###undo add to staging area
+
 git commit -m 'message' # make changes to repository
 
 git status # shows commits
@@ -21,4 +23,12 @@ git push -u origin master #to add files on master repository
 echo """file name"""/>.gitignore  #would not be commited to master
 
 
-git rm --cached -r file $#if something is in staging area then it should be removed from there before being addet to gitignore \m/
+git rm --cached -r file #if something is in staging area then it should be removed from there before being addet to gitignore
+
+git diff --staged
+
+####### to make vscode the visual diff tool #########3
+git config --global diff.tool vscode
+git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+
+git difftool # to view in difftool
