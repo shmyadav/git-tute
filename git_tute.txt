@@ -21,4 +21,4 @@ git push -u origin master #to add files on master repository
 echo """file name"""/>.gitignore  #would not be commited to master
 
 
-#############################nayi file###################33
+git rm --cached -r file $#if something is in staging area then it should be removed from there before being addet to gitignore \m/
